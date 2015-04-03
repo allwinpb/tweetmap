@@ -1,0 +1,1 @@
+bowcat -o assets -m

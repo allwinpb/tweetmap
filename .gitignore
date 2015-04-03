@@ -36,3 +36,6 @@ bower_components
 .bower-registry
 .bower-tmp
 
+### Tweetmap ###
+build.js
+build.css

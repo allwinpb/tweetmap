@@ -6,24 +6,18 @@ npm install -g bower
 npm install -g bowcat
 npm install
 bower install
-bowcat -o assets -m
+recompile OR sh recompile.bat
 ```
 
-# Run after installing/uninstalling bower components
+# Run after change to bower_components
 
 ```bash
-bowcat -o assets -m
+recompile (Windows)
+sh recompile.bat (~Linux)
 ```
 
 # Run webserver
 
-## Windows
 ```bash
-run.bat
-```
-
-## Linux/Unix-like
-```bash
-chmod +x run
-./run
-```
+run (Windows)
+sh run (~Linux)
